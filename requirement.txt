@@ -1,8 +1,2 @@
-streamlit
-matplotlib
-numpy
-pandas
-seaborn
-hiplot
-plotly.express
-altair
+pip install pipreqs
+pipreqs /path/to/project
