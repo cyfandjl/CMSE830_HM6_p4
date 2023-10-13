@@ -42,7 +42,7 @@ if "regplot" in selected_plots:
     """)
     if aoti[x_axis].dtype != 'object' and aoti[y_axis].dtype != 'object':
         plt.figure(figsize=(8, 6))
-        sns.regplot(data=aoti, x=x_axis, y=y_axis, lowess=True, line_kws={"color": "C1"})
+        sns.regplot(data=aoti, x=x_axis, y=y_axis)
         st.pyplot(plt)
     else:
         st.write("""
