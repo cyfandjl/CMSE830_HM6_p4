@@ -2,7 +2,6 @@
 import streamlit as st #create a web app
 import numpy as np
 import pandas as pd
-from scipy.stats import zscore
 import seaborn as sns
 import matplotlib.pyplot as plt
 import hiplot as hip
