@@ -1,2 +1,2 @@
 pip3 install pipreqs
- pipreqs --savepath=requirements.in && pip-compile
+pipreqs --savepath=requirements.in && pip-compile
